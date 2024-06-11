@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "part1": "tsc && node dist/day16/part1.js",
+    "part2": "tsc && node dist/day16/part2.js",
+    "test": "jest",
+    "demo": "echo \"Hello $npm_config_first $npm_config_last\""
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "fs": "^0.0.1-security",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.11",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.0.7"
+  }
+}
